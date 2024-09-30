@@ -1,0 +1,49 @@
+{
+  "Guru": [
+     {
+       "id": "1",
+       "namaGuru": "Elis Yuliasari, S.Pd.",
+       "jabatan": "Kepala Sekolah"
+     },
+     {
+       "id": "2",
+       "namaGuru": "Tursino, S.Pd.",
+       "jabatan": "Guru Kelas"
+     },
+     {
+       "id": "3",
+       "namaGuru": "Dehwi Nuraeni, S.Pd.I",
+       "jabatan": "Guru PAI"
+     },
+     {
+       "id": "4",
+       "namaGuru": "Erna Parlina, S.Pd.",
+       "jabatan": "Guru Kelas"
+     },
+     {
+       "id": "5",
+       "namaGuru": "Tutin Tresnawati, S.Pd.",
+       "jabatan": "Guru Kelas"
+     },
+     {
+       "id": "6",
+       "namaGuru": "Andi Gusyadi, S.Pd.",
+       "jabatan": "Guru Kelas"
+     },
+     {
+       "id": "7",
+       "namaGuru": "Ai Nuryanti, S.Pd.",
+       "jabatan": "Guru Kelas"
+     },
+     {
+       "id": "8",
+       "namaGuru": "Dani Ramdhani, S.Pd.I",
+       "jabatan": "Guru Kelas"
+     },
+     {
+       "id": "9",
+       "namaGuru": "Desi Kartikasari, S.Pd.",
+       "jabatan": "Guru PJOK"
+     }
+   ]
+}

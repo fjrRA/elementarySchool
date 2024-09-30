@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDN 2 Sukamulya - Profil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            min-height: 100vh;
+            margin-top: 56px; /* Navbar height */
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        header.jumbotron {
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            background: url('gambar/header-bg.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        .tab-content {
+            margin-top: 2rem;
+        }
+
+        .tab-pane {
+            margin-bottom: 2rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .nav-link.active {
+            font-weight: bold; /* Menandai halaman aktif dengan gaya bold */
+            color: #0056b3;
+        }
+
+        footer .btn {
+            font-size: 0.75rem;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+        }
+
+        footer .btn-primary {
+            background-color: #4267B2;
+            border: none;
+        }
+
+        footer .btn-danger {
+            background-color: #DB4437;
+            border: none;
+        }
+
+        footer .btn-secondary {
+            background-color: #6c757d;
+            border: none;
+        }
+
+        footer .btn i {
+            margin-right: 0.5rem;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            background-color: #f8f9fa; /* Light background color */
+        }
+
+        .navbar-brand img {
+            height: 50px; /* Adjust logo size */
+        }
+
+        .navbar-nav .nav-link {
+            margin-left: 1rem; /* Spacing between menu items */
+        }
+
+        .navbar-toggler {
+            border-color: #ddd; /* Toggler border color */
+        }
+
+        .navbar-toggler-icon {
+            background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3E%3Cpath stroke="currentColor" stroke-width="2" d="M5 7h20M5 15h20M5 23h20" /%3E%3C/svg%3E');
+            /* Custom toggle icon */
+        }
+
+        @media (max-width: 768px) {
+            .navbar-brand img {
+                height: 40px; /* Adjust logo size on smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="gambar/logo-removebg-preview.png" alt="Logo SDN 2 Sukamulya">
+                SDN 2 Sukamulya
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="profil.html">Profil Sekolah</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Konten Profil Sekolah -->
+    <div class="container mt-5 flex-fill">
+        <!-- Nav Tabs -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="visi-tab" data-bs-toggle="tab" href="#visi" role="tab" aria-controls="visi" aria-selected="true">Visi & Misi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="motto-tab" data-bs-toggle="tab" href="#motto" role="tab" aria-controls="motto" aria-selected="false">Motto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tentang-tab" data-bs-toggle="tab" href="#tentang" role="tab" aria-controls="tentang" aria-selected="false">Tentang Sekolah</a>
+            </li>
+        </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content mt-3">
+            <!-- Visi & Misi -->
+            <div class="tab-pane fade show active" id="visi" role="tabpanel" aria-labelledby="visi-tab">
+                <h1>Visi & Misi</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <h3>Visi</h3>
+                        <hr width="200px" style="margin-left:auto; margin-right:auto;">
+                        <p class="text-justify">
+                            "Terdepan dalam Prestasi, Agamis, Disiplin dalam Bertindak serta Mengedepankan Rasa Kekeluargaan dan Tanggung Jawab atas Segala Tindakannya."
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="text-center">Misi</h3>
+                        <hr width="200px" style="margin-left:auto; margin-right:auto;">
+                        <ul class="text-justify">
+                            <li>1. Meningkatkan mutu KBM melalui peningkatan kualitas Guru dan Tenaga Kependidikan lainnya.</li>
+                            <li>2. Menciptakan hubungan harmonis antar pegawai dengan pendekatan kekeluargaan serta antar pegawai dengan pihak luar (masyarakat).</li>
+                            <li>3. Menciptakan suasana agamis dan budi pekerti luhur sehingga menjadi teladan bagi siswa.</li>
+                            <li>4. Memberikan materi pembiasaan pada anak didik untuk menjaga siswa terhindar dari perbuatan yang tidak diinginkan.</li>
+                            <li>5. Mengupayakan agar semua pegawai menyadari tugas dan tanggung jawab serta fungsi dan perannya sehingga sekolah dapat berfungsi secara efektif dan efisien.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Motto -->
+            <div class="tab-pane fade" id="motto" role="tabpanel" aria-labelledby="motto-tab">
+                <h2>Motto</h2>
+                <hr>
+                <ul class="text-justify">
+                    <li>1.	Menuntut ilmu hukumnya wajib</li>
+                    <li>2.	Sekolah indah jati diri lembaga</li>   
+                    <li>3.	Bersama kita pasti bias</li>    
+                    <li>4.	Mendidik asik belajar senang</li>    
+                    <li>5.	Belajar dan mengajar bagian dari jiwaku</li>    
+                    <li>6.	Membaca merupakan semangatku</li>    
+                        
+                </ul>
+            </div>
+
+            <!-- Tentang Sekolah -->
+            <div class="tab-pane fade" id="tentang" role="tabpanel" aria-labelledby="tentang-tab">
+                <h2>Tentang Sekolah</h2>
+                <hr>
+                <ul class="text-justify">
+                    <li>-   Nama Sekolah: SDN 2 Sukamulya</li>
+                    <li>-   Alamat: Sukamulya, Kec. Purwadadi, Kabupaten Ciamis, Jawa Barat 46286</li>
+                    <li>-   Nomor Statistik Sekolah: 101021424044</li>
+                    <li>-   NPSN: 20252139</li>
+                    <li>-   Tahun Berdiri: 1951</li>
+                    <li>-   Status Sekolah: Negeri</li>
+                    <li>-   Akreditasi Sekolah: B</li>
+                    <li>-   Luas Tanah: 100 Bata</li>
+                    <li>-   Luas Bangunan: 448 m²</li>
+                    <li>-   Jumlah Guru/Karyawan: 9</li>
+                    <li>-   Nama Kepala Sekolah: Elis Yuliasari, S.Pd</li>
+                    <li>-   Nama Dewan Sekolah: M. Mukhtar</li>
+        
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Kolom Logo dan Nama Instansi -->
+                <div class="col-md-4 d-flex align-items-center mb-3">
+                    <img src="gambar/logo-removebg-preview.png" alt="Logo SDN 2 Sukamulya" class="img-fluid me-3" style="height: 60px;">
+                    <div>
+                        <h5 class="mb-0">SDN 2 Sukamulya</h5>
+                        <p class="mb-0">Sukamulya, Kec. Purwadadi, Kabupaten Ciamis, Jawa Barat 46385</p>
+                    </div>
+                </div>
+
+                <!-- Kolom Kosong untuk Spasi Tengah -->
+                <div class="col-md-4 d-flex justify-content-center mb-3">
+                    <!-- Kosong untuk menempatkan Hubungi Kami di sebelah kanan -->
+                </div>
+
+                <!-- Kolom Hubungi Kami -->
+                <div class="col-md-4 d-flex justify-content-end mb-3">
+                    <div>
+                        <h5 class="mb-3">Hubungi Kami</h5>
+                        <div class="d-flex gap-2">
+                            <a href="https://www.facebook.com/share/p/vsScaK662LoaQxxH/?mibextid=oFDknk" class="btn btn-primary" target="_blank" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i> Facebook
+                            </a>
+                            <a href="https://maps.app.goo.gl/Cc1ftH8KtLdG766CA" class="btn btn-danger" target="_blank" aria-label="Google Maps">
+                                <i class="fas fa-map-marker-alt"></i> Google Maps
+                            </a>
+                            <a href="mailto:sdn.2sukamulya@gmail.com" class="btn btn-secondary" aria-label="Email">
+                                <i class="bi bi-envelope me-2"></i> Kirim Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Hak Cipta -->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 SDN 2 Sukamulya. Fand.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

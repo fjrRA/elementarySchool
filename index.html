@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDN 2 Sukamulya - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding-top: 56px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            color: #ffffff;
+            text-align: center;
+            width: 90%;
+        }
+
+        .carousel-caption h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ffffff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .carousel-caption p {
+            font-size: 1.25rem;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        .carousel-caption-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 5;
+        }
+
+        .home-welcome {
+            margin-bottom: 20px;
+        }
+
+        .img-icon {
+            max-width: 80px;
+            height: auto;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .nav-link.active {
+            font-weight: bold; /* Menandai halaman aktif dengan gaya bold */
+            color: #0056b3;
+        }
+
+        .navbar {
+            background-color: #f8f9fa; /* Light background color */
+        }
+
+        .navbar-brand img {
+            height: 50px; /* Adjust logo size */
+        }
+
+        .navbar-nav .nav-link {
+            margin-left: 1rem; /* Spacing between menu items */
+        }
+
+        .navbar-toggler {
+            border-color: #ddd; /* Toggler border color */
+        }
+
+        .navbar-toggler-icon {
+            background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3E%3Cpath stroke="currentColor" stroke-width="2" d="M5 7h20M5 15h20M5 23h20" /%3E%3C/svg%3E');
+            /* Custom toggle icon */
+        }
+
+        @media (max-width: 768px) {
+            .navbar-brand img {
+                height: 40px; /* Adjust logo size on smaller screens */
+            }
+        }
+
+        footer {
+            font-size: 0.875rem;
+        }
+
+        footer .btn {
+            font-size: 0.75rem;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+        }
+
+        footer .btn-primary {
+            background-color: #4267B2;
+            border: none;
+        }
+
+        footer .btn-danger {
+            background-color: #DB4437;
+            border: none;
+        }
+
+        footer .btn-secondary {
+            background-color: #6c757d;
+            border: none;
+        }
+
+        footer .btn i {
+            margin-right: 0.5rem;
+        }
+
+        .carousel-item img {
+            object-fit: cover;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="gambar/logo-removebg-preview.png" alt="Logo SDN 2 Sukamulya">
+                SDN 2 Sukamulya
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil Sekolah</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="gambar/gmbr.1.jpg" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption-overlay"></div>
+                <div class="carousel-caption">
+                    <h1>Selamat Datang di SD Negeri 2 Sukamulya</h1>
+                    <p>Tempat di mana mimpi besar dimulai dan masa depan cemerlang dibangun. Kami sangat
+                        bersemangat untuk menunjukkan kepada Anda semua hal luar biasa yang kami tawarkan dan bagaimana
+                        kami
+                        membantu setiap siswa mencapai kesuksesan mereka.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="gambar/gmbr.2.jpg" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption-overlay"></div>
+                <div class="carousel-caption">
+                    <h1>Fasilitas Modern</h1>
+                    <p>Menjadikan Sekolah sebagai sumber belajar, sumber informasi serta sumber kreatifitas siswa</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="gambar/gmbr.3.jpg" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption-overlay"></div>
+                <div class="carousel-caption">
+                    <h1>Guru Berkualitas</h1>
+                    <p>Pengajar berdedikasi tinggi untuk mencetak generasi berkualitas.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Kontrol carousel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Home Content -->
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="gambar/icon-1.png" alt="Fasilitas" class="img-fluid rounded-circle mb-3 img-icon">
+                <h3>Fasilitas</h3>
+                <p>Fasilitas modern dan lengkap untuk mendukung proses pembelajaran yang optimal.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="gambar/icon-2.png" alt="Tenaga Pengajar" class="img-fluid rounded-circle mb-3 img-icon">
+                <h3>Tenaga Pengajar</h3>
+                <p>Guru berpengalaman dan berdedikasi tinggi untuk mencetak generasi berkualitas.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="gambar/icon-3.png" alt="Ekstrakurikuler" class="img-fluid rounded-circle mb-3 img-icon">
+                <h3>Ekstrakurikuler</h3>
+                <p>Beragam kegiatan ekstrakurikuler untuk mengembangkan bakat dan minat siswa.</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-12 text-center">
+                <h2>Kenapa Harus Memilih SDN 2 Sukamulya?</h2>
+                <p>Sekolah ini menerapkan pendekatan personal dalam pembelajaran, yang memungkinkan pengajaran
+                    disesuaikan dengan kebutuhan unik setiap siswa, untuk memaksimalkan potensi mereka.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Fasilitas -->
+<div class="row my-5 text-center fasilitas-container">
+    <div class="col-lg-12">
+        <h3>Fasilitas Sekolah</h3>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card border-primary">
+                    <div class="card-body">
+                        <h5 class="card-title">📚 Perpustakaan</h5>
+                        <p class="card-text">Tempat belajar yang nyaman dengan berbagai koleksi buku.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card border-success">
+                    <div class="card-body">
+                        <h5 class="card-title">🏫 Ruang Belajar</h5>
+                        <p class="card-text">Ruang kelas yang nyaman untuk proses belajar mengajar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card border-info">
+                    <div class="card-body">
+                        <h5 class="card-title">⚽ Lapangan Olahraga</h5>
+                        <p class="card-text">Area luas untuk berbagai aktivitas olahraga dan permainan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Prestasi Sekolah -->
+    <!-- <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h2>Prestasi Sekolah</h2>
+                <p>Kami bangga akan prestasi yang telah kami raih, termasuk kompetisi akademik dan kegiatan
+                    ekstrakurikuler.</p>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Google Maps Section -->
+    <div class="container my-5">
+        <h2 class="text-center">Lokasi Kami</h2>
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5944.926700895517!2d108.64125604521747!3d-7.429855487524194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e658649b661696f%3A0x398d1f82b8621041!2sSD%20Negeri%202%20Sukamulya!5e0!3m2!1sid!2sid!4v1726824224980!5m2!1sid!2sid"
+                    width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+   <!-- Footer -->
+   <footer class="bg-light py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Kolom Logo dan Nama Instansi -->
+            <div class="col-md-4 d-flex align-items-center mb-3">
+                <img src="gambar/logo-removebg-preview.png" alt="Logo SDN 2 Sukamulya" class="img-fluid me-3" style="height: 60px;">
+                <div>
+                    <h5 class="mb-0">SDN 2 Sukamulya</h5>
+                    <p class="mb-0">Sukamulya, Kec. Purwadadi, Kabupaten Ciamis, Jawa Barat 46385</p>
+                </div>
+            </div>
+
+            <!-- Kolom Kosong untuk Spasi Tengah -->
+            <div class="col-md-4 d-flex justify-content-center mb-3">
+                <!-- Kosong untuk menempatkan Hubungi Kami di sebelah kanan -->
+            </div>
+
+            <!-- Kolom Hubungi Kami -->
+            <div class="col-md-4 d-flex justify-content-end mb-3">
+                <div>
+                    <h5 class="mb-3">Hubungi Kami</h5>
+                    <div class="d-flex gap-2">
+                        <a href="https://www.facebook.com/share/p/vsScaK662LoaQxxH/?mibextid=oFDknk" class="btn btn-primary" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                        </a>
+                        <a href="https://maps.app.goo.gl/Cc1ftH8KtLdG766CA" class="btn btn-danger" target="_blank" aria-label="Google Maps">
+                            <i class="fas fa-map-marker-alt"></i> Google Maps
+                        </a>
+                        <a href="mailto:info@sdn2sukamulya.sch.id" class="btn btn-secondary" aria-label="Email">
+                            <i class="bi bi-envelope me-2"></i> Kirim Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hak Cipta -->
+        <div class="row">
+            <div class="col-12 text-center">
+                <p>&copy; 2024 SDN 2 Sukamulya. Fand.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

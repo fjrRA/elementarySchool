@@ -1,0 +1,46 @@
+{
+  "Kelas": [
+     {
+       "id": "1",
+       "tingkatKelas": "1",
+       "jumlahSiswaLelaki": "8",
+       "jumlahSiswaPerempuan": "7",
+       "totalSiswa": "15" 
+     },
+     {
+       "id": "2",
+       "tingkatKelas": "2",
+       "jumlahSiswaLelaki": "11",
+       "jumlahSiswaPerempuan": "11",
+       "totalSiswa": "22" 
+     },
+     {
+       "id": "3",
+       "tingkatKelas": "3",
+       "jumlahSiswaLelaki": "12",
+       "jumlahSiswaPerempuan": "10",
+       "totalSiswa": "22" 
+     },
+     {
+       "id": "4",
+       "tingkatKelas": "4",
+       "jumlahSiswaLelaki": "15",
+       "jumlahSiswaPerempuan": "14",
+       "totalSiswa": "19" 
+     },
+     {
+       "id": "5",
+       "tingkatKelas": "5",
+       "jumlahSiswaLelaki": "7",
+       "jumlahSiswaPerempuan": "12",
+       "totalSiswa": "19" 
+     },
+     {
+       "id": "6",
+       "tingkatKelas": "6",
+       "jumlahSiswaLelaki": "21",
+       "jumlahSiswaPerempuan": "13",
+       "totalSiswa": "34" 
+     }
+   ]
+}
