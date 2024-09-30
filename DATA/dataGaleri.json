@@ -1,0 +1,58 @@
+{
+  "Galeri": [
+    {
+      "id": "1",
+      "gambar": "gambar/kegiatan kelas.jpg",
+      "kegiatan": "Kegiatan Kelas",
+      "deskripsi": "Siswa sedang melakukan aktivitas belajar di dalam kelas."
+    },
+    {
+      "id": "2",
+      "gambar": "gambar/gmbr.1.jpg",
+      "kegiatan": "Olahraga",
+      "deskripsi": "Siswa berpartisipasi dalam kegiatan olahraga di lapangan."
+    },
+    {
+      "id": "3",
+      "gambar": "gambar/up bendera.jpg",
+      "kegiatan": "Upacara",
+      "deskripsi": "Upacara pengibaran bendera merah putih yang rutin dilakukan setiap hari Senin."
+    },
+    {
+      "id": "4",
+      "gambar": "gambar/kegiatan pramuka.jpg",
+      "kegiatan": "Pramuka",
+      "deskripsi": "Kegiatan yang rutin dilakukan setiap hari Jumat."
+    },
+    {
+      "id": "5",
+      "gambar": "gambar/pengajar.jpg",
+      "kegiatan": "Pengajar SDN 2 Sukamulya",
+      "deskripsi": "Foto bersama guru-guru Pengajar SDN 2 Sukamulya pada acara kenaikan kelas dan pelepasan kelas VI."
+    },
+    {
+      "id": "6",
+      "gambar": "gambar/tahun baru islam.jpg",
+      "kegiatan": "Peringatan Tahun Baru Islam",
+      "deskripsi": "Kegiatan memperingati Tahun Baru Islam."
+    },
+    {
+      "id": "7",
+      "gambar": "gambar/kegiatan pramuka.jpg",
+      "kegiatan": "Pramuka",
+      "deskripsi": "Kegiatan yang rutin dilakukan setiap hari Jumat."
+    },
+    {
+      "id": "8",
+      "gambar": "gambar/pengajar.jpg",
+      "kegiatan": "Pengajar SDN 2 Sukamulya",
+      "deskripsi": "Foto bersama guru-guru Pengajar SDN 2 Sukamulya pada acara kenaikan kelas dan pelepasan kelas VI."
+    },
+    {
+      "id": "9",
+      "gambar": "gambar/tahun baru islam.jpg",
+      "kegiatan": "Peringatan Tahun Baru Islam",
+      "deskripsi": "Kegiatan memperingati Tahun Baru Islam."
+    }
+  ] 
+  }

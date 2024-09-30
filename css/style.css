@@ -1,44 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
 body {
     background-color: #cce0f5;
+    font-family: "Fredoka", sans-serif;
+    ;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #0f1011;
 }
 
 .img-icon {
-    max-width: 100px; /* Maksimum lebar gambar */
-    height: auto; /* Pertahankan rasio aspek gambar */
+    max-width: 100px;
+    /* Maksimum lebar gambar */
+    height: auto;
+    /* Pertahankan rasio aspek gambar */
 }
 
 /* Warna latar belakang navbar */
 .navbar {
-    background-color: #007bff; /* Warna latar belakang navbar (biru) */
-    color: #3c7dda; /* Warna teks default untuk navbar */
-    border-bottom: 1px solid #0056b3; /* Garis bawah navbar dengan warna lebih gelap */
+    background-color: #007bff;
+    /* Warna latar belakang navbar (biru) */
+    color: #3c7dda;
+    /* Warna teks default untuk navbar */
+    border-bottom: 1px solid #0056b3;
+    /* Garis bawah navbar dengan warna lebih gelap */
 }
 
 /* Gaya untuk brand/navbar title */
 .navbar-brand {
-    font-family: 'Playfair Display', serif; /* Font untuk brand dengan Playfair Display */
-    font-weight: 700; /* Ketebalan font untuk brand */
-    color: #090909; /* Warna teks brand */
+    font-family: 'Playfair Display', serif;
+    /* Font untuk brand dengan Playfair Display */
+    font-weight: 700;
+    /* Ketebalan font untuk brand */
+    color: #090909;
+    /* Warna teks brand */
 }
 
 /* Gaya untuk item daftar navbar */
 .navbar-nav .nav-link {
-    font-family: 'Montserrat', sans-serif; /* Font untuk link dengan Montserrat */
-    font-weight: 400; /* Ketebalan font untuk link */
-    color: #0c0c0c; /* Warna teks link */
-    padding: 10px 15px; /* Padding di sekitar teks link */
-    border-radius: 5px; /* Sudut melengkung untuk link */
-    transition: background-color 0.3s, color 0.3s; /* Transisi warna halus */
-  
+    font-family: 'Montserrat', sans-serif;
+    /* Font untuk link dengan Montserrat */
+    font-weight: 400;
+    /* Ketebalan font untuk link */
+    color: #0c0c0c;
+    /* Warna teks link */
+    padding: 10px 15px;
+    /* Padding di sekitar teks link */
+    border-radius: 5px;
+    /* Sudut melengkung untuk link */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transisi warna halus */
+
 }
-
-
-
-
-
-
-
